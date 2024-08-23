@@ -1,1 +1,1 @@
-Movie Recommedation based on your movies. I use cosine similarity to do so.
+Movie Recommedation based on your previous watchlist.For New User it has Registration option and for existing user can login through mail.
