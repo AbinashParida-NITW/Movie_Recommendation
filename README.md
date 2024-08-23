@@ -1,1 +1,1 @@
-Movie Recommedation based on your previous watchlist.For New User it has Registration option and for existing user can login through mail.
+Welcome to the Movie Recommendation App! This application provides personalized movie recommendations based on your watchlist. New users can easily register, while existing users can log in using their email addresses. With a simple and intuitive interface, this app aims to enhance your movie-watching experience by suggesting films tailored to your preferences.
