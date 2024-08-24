@@ -95,7 +95,7 @@ elif auth_option == "Register":
 
 # Check if user is logged in
 if 'user' not in st.session_state:
-    st.warning("Please log in to use the recommender system.")
+    st.warning("Please log in or Register to use the recommender system.")
 else:
     # Movie selection and recommendation
     selected_movie_name = st.selectbox("Select a movie:", movies["title"].values)
