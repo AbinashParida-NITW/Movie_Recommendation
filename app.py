@@ -10,6 +10,9 @@ if not firebase_admin._apps:
     cred = credentials.Certificate('movie-recommend-4e602-firebase-adminsdk-xhaf5-db5cae781e.json')  # actual path
     firebase_admin.initialize_app(cred)
 
+firebase_config = {
+    "apiKey": "AIzaSyDP5bXc6iJVdhVfaTyl51-LqG4AwFN5O5o",  #  actual API key
+}
 # Initialize Firestore DB
 db = firestore.client()
 
