@@ -14,9 +14,6 @@ if not firebase_admin._apps:
 db = firestore.client()
 
 # Firebase configuration for REST API Authentication
-firebase_config = {
-    "apiKey": "AIzaSyDP5bXc6iJVdhVfaTyl51-LqG4AwFN5O5o",  #  actual API key
-}
 
 def firebase_auth_login(email, password):
     url = f"https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key={firebase_config['apiKey']}"
